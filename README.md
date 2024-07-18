@@ -1,1 +1,1 @@
-# T-cnico-en-construcci-n-y-reparaci-n-de-drones
+# Tecnico en construccion y reparacion de drones
