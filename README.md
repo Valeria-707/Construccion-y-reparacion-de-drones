@@ -1,6 +1,6 @@
 # Tecnico en construccion y reparacion de drones
 
-##¿Qué es?
+## ¿Qué es?
 
 Son sistemas de aeronaves pilotadas a distancia no tripulaladas que gracias a su tamaño y versatilidad son de mucha ayuda.
 Estos son empleados por:
@@ -11,7 +11,7 @@ Estos son empleados por:
 
 Para los aficionados se desglosan los profesionales, los recreativos y educativos.
 
-##Tipos
+## Tipos
 
 - Ala fija
 
