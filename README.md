@@ -265,3 +265,53 @@ Las hélices están hechas de varios materiales, y cada uno es especial para cad
 El tamaño de una hélice va indicada en pulgadas por cuatro digitos. Los primeros dos dígitos indican el díametro entre punta a punta, los otroa dos dígitos indican el paso de la hélices, es deir, la distancia ue avanza en un giro.
 
 En términos de eficiencia es mejor usar palas, pero se usan 3 palas cuando el diámetro es muy pequeñi y tienen que aumentar el empuje. Son vistas principalmente eb avones de ala fija y cuadricópeteros.
+
+### Fuselaje
+
+Es el cuerpo de un avión fabricado de diversos materiales para los drones de ala fija.
+ - Dron de espuma: Uso recreativo
+ - Dron de madera: Uso recreativo
+ - Dron de fibra de carbono: Uso profesional
+ - Dron de fibra de vidrio: Uso profesional
+
+### Carga útil
+
+El pilóto automático, la batería, el recpetor del rdio control, el módulo aérreo de telemetría y la cámara conforman la carga útil, siendo el peso de todos los componentes que se usarán en la construcción.
+
+ - Se debe verificar que el fuselaje tenga espacio suficiente para albergar los componentes
+
+### Centro de gravedad
+
+Es el punto de equilibriodel deonn, si este punto está desubicado, el vuelo del dron puede ser inestable o provocar su desplome.
+
+### Servomotores
+
+Son pqueqños motores, hechhos de metol o plastico con un preciso control de posicionamiento. También se utilizan en tareas como inncinar una cámara hacia arriba o abajo.
+
+### Marco multirrotor
+
+Cuentan con la ventaja de su simplicidad mecánica, y la placa central de su marco puede fabricarse en madera i termipláticos en impresoras 3D o máquinas CNC.
+
+### Placa Central
+
+Construida con fibbra de vidrio o fibra de carbono. Esta no debe de exceder el peso máximo de despegue.
+
+### Brazos
+
+Fabricados de varios materiales como; plástico, fibra de vidrio o fibra de carbono. Tienen formas de prismas rectangulares o tubulares e incluso algunos pueden llegar a ser pegables.
+
+###  PLaca de Districución de Energía
+
+La Placa de Distribución de Energía o también conocido por sus siglas en inglés PDB (Power Distribution Board) evita la tedios tarea de soldar motores con sus respectivos ESC y el resto de componentes. Esta placa ya viene integrada para facilitar la energización de los dispositivos electrónicos y motores.
+ - Se debe verificar que su capacidad de corriente sea superiorm al consumo de los motores.
+
+### Tren de aterrizaje
+
+Si se requiere instalar un cardán (mecanismo de estabilización) se debe de instalar igualmente un tren de aterrizaje, con una distancia sificiente entre la base del marco y el suelo.
+ - Recubre el tren de aterrizaje con tubos de espuma para proteger aún más la estabilización durante los aterrizajes.
+
+### Monocasco
+
+Es un marco ligero y robuso donde se encuentrab los elementos que controlan el dron.
+ - Los dornas que ya se adquieren listos para volar ya los incluyen desde su compra.
+ - A veces pueden ser incómodos al momento de repararlos
