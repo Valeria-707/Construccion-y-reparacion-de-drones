@@ -315,3 +315,67 @@ Si se requiere instalar un cardán (mecanismo de estabilización) se debe de ins
 Es un marco ligero y robuso donde se encuentrab los elementos que controlan el dron.
  - Los dornas que ya se adquieren listos para volar ya los incluyen desde su compra.
  - A veces pueden ser incómodos al momento de repararlos
+
+### Baterías
+
+
+Se utilizan baterías de polímero de litio, también conocidas como LiPo. Estas baterías están compuestas por celdas con un voltaje mínimo de 3.7 volts y un máximo de 4.2 volts. Si la batería excede este rango, los químicos internos se alteran, lo que puede dañar la batería y, en casos extremos, provocar que explote.
+
+*Capacidad*
+
+Su capacidad se mide en miliamperios hora (mAh) y aparece en la etiqueta. Cuanta mayor capacidad utilicemos, más tiempo podrá volar el dron.
+
+*Desventajas*
+
+Entre más capacidad ocupemos, mayor será el peso.
+
+*Celdas - Tensión Normal - Tensión mínima - Tensión máxima*
+
+1s -  3.7 volts - 3 volts - 4.2 volts
+
+2s - 7.4 volts - 6 volts - 8.4 volts
+
+3s - 11.1 volts - 9 volts - 12.6 volts
+
+4s - 14.8 volts - 12 volts - 16.8 volts 
+
+5s - 18.5 volts - 15 volts - 21 volts
+
+6s - 22.2 volts - 18 volts - 25.2 volts
+
+*Tasa de descarga o Clasificación (C)*
+
+Indica que tan rápido se extrae la energía de la batería.
+ - Se calcula multiplicando la capacidad de la batería por la tasa de descarga.
+ - Sirve para comprobar ue la batería nos dará la corriente suficiente.
+
+### Controladores Electrónicos de Velocidad
+
+Los Controladores Electrónicos de Velocidad o ESC por sus siglas en inglés (Electronic Speed Controller) son disposistivos que interconectan a la batería y al controlador de vuelo para hacer girar a los motores a las velocidades deseadas.
+
+*Caraterísticas*
+
+ - Amperaje de salida: Define el tamaño del motor que se puede controlar, ejemplo:
+    - 10 - 12 amperios: Multirrotores peueños
+    - 20 - 30 amperios: Multirrotores con cámaras
+
+ - Voltaje de operación: Indica los voltajes mínimo y máximo con los que puede funcionar.
+
+### Circuito Eliminador de Baterías
+
+Los Circuito Eliminador de Baterías o BEC por sus siglas en inglés (Battery Eliminator Circuit) reducen ele voltaje de la batería hasta un voltaje estable de 5 volts. Normalmente vienen incluidos en los ESC, pero hay excepciones.
+
+*Tipos*
+ - Switching Bec (SBEC)
+    - No se calientan
+    - Más eficientes
+    - Interfiere con los equipos de rad.iocontrol
+
+ - OPTO ESC
+    - Controlador con aislante térmico
+    - Evita la interferencia
+
+ - BEC externo
+    - Pueden insatalarse por separado
+    - Pueden ser sustituidos con el módulo de potencia en algunos pilotos automáticos
+  
