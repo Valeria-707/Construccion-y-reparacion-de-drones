@@ -178,9 +178,9 @@ Cuentan con un número específico de canales para las funciones que se requiera
    - Una antena de diversidad: Incrementa la capacidad de captación de la señal.
    - Antenas impresas o de PCB: Tienen mejor recepción a grandes rangos.
 
-## Motores y Hélices
+### Motores y Hélices
 
-### Motores
+**Motores**
 Los drones usan motores eléctricos sin escobillas del tipo "outrunner", es decir, sin carcasa externa. Estos motores se componen de dos partes principales:
 
 *El estator:* La parte fija del motor, con bobinas dispuestas en un patrón radial.
@@ -190,7 +190,45 @@ El modelo de un motor se identifica con un par de números de 4 dígitos cada un
 
 Para el segundo número indica la constante de revoluciones por minuto.
 
-### Hélices
+Para escoger el motor adecuado para nuestro dron es necesario saber lo siguiente para escoger el más adecuado
+
+Diámetro              Tamaño del Motor              Rango KV
+3"                          1 306                 3 000 - 4 000
+4"                          1 806                 2 600 - 2 800
+5"                       2 204 - 2 206            2 300 - 2 600
+6"                       2 204 - 2 208            1 900 - 2 300
+7"                       2 206 - 2 210            1 450 - 1 600
+
+**Hélices**
 
 Producen el empuje que el dron necesita para volar, simepre se eligen las hélices más grandes posibles de acorde al tamaño del marco y de los motores que utilice para maximizar el empuje.
-Entre menos revoluciones (KV), más grande la hélice
+Entre menos revoluciones (KV), más grande la hélice.
+
+Las hélices están hechas de varios materiales, y cada uno es especial para cada uso por sus caraccterísticas.
+ - Plástico:
+    - Muy comunes
+    - Bajo costo
+    - Flexibles
+    - No resistentes para carga
+
+ - Plástico Reforzado:
+    - Flexibles
+    - Fuertes
+    - Costo moderado
+    - Rigidas
+  
+ - Fribra de carbono:
+    - Rigidas
+    - Fuertes
+    - Ligeras
+    - Aerodinámicas
+    - Cosotas
+  
+ - Madera:
+    - Costosa
+    - Pesada
+    - Con mayor impulso apara carga pesada
+
+El tamaño de una hélice va indicada en pulgadas por cuatro digitos. Los primeros dos dígitos indican el díametro entre punta a punta, los otroa dos dígitos indican el paso de la hélices, es deir, la distancia ue avanza en un giro.
+
+En términos de eficiencia es mejor usar palas, pero se usan 3 palas cuando el diámetro es muy pequeñi y tienen que aumentar el empuje. Son vistas principalmente eb avones de ala fija y cuadricópeteros.
