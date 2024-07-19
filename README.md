@@ -25,28 +25,28 @@ Estos son empleados por:
  
 ## Campos de Trabajos
 
--- Elaborar mapas
+1.- Elaborar mapas
    - Con el uso de cámaras especiales y georreferenciados GPS, es posible ubicar con gran precisión las coordenadas sobre el suelo.
 
--- En la industria agrícola
+2.- En la industria agrícola
    - En la actualidad, las aeronaves están equipadas con sensores de luz visible (RGB) y de infrarrojo cercano (NDVI), permitiendo así analizar la salud de los cultivos.
 
--- En la construcción minera
+3.- En la construcción minera
    - Se emplean para mapear tridimensionalmente la topografía del terreno y detectar artículos en áreas de difícil acceso.
 
--- Fotografía
+4.- Fotografía
    - Videos con mayor calidad y resolución.
    -  Usado para supervisar el medio ambiente y labores de atención de emergencias.
 
--- Mecánica
+5.- Mecánica
   - Diseña y construye.
   - Conocer los planos.
 
--- Electrónica
+6.- Electrónica
   - Diseña y construye.
   - Interconectar las placas y componentes.
 
--- Elaboración de prototipos
+7.- Elaboración de prototipos
   - Consiste en pruebas para tener una visión de las ideas planeadas.
   - Elaboración de bocetos y desarrollo de los primeros prototipos.
 
@@ -69,7 +69,7 @@ Dependiendo de la masa total del dron, estos deben seguir las regulaciones perti
   - 2 kg hasta 25 kg: Privado no comercial
   - 25 kg o más: Comercial
 
-*Caja de Herramientas, Materiales y Equipo de Protección*
+## Caja de Herramientas, Materiales y Equipo de Protección
 
 *Herramientas*
 - Destornillador plano
