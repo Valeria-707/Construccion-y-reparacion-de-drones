@@ -194,23 +194,35 @@ Para escoger el motor adecuado para nuestro dron es necesario saber lo siguiente
 
 *Diámetro:*
 3"
+
 4"
+
 5"
+
 6"
+
 7"
 
 *Tamaño del motor*
 3": 1 306
+
 4": 1 806
+
 5": 2 204 - 2 206
+
 6": 2 204 - 2 208
+
 7": 2 206 - 2 210
 
 *Rango KV*
 3": 3 000-4 000
+
 4": 2 600-2 800
+
 5": 2 300-2 600
+
 6": 1 900 - 2 300
+
 7": 1 450 - 1 600
 
 **Hélices**
