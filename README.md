@@ -379,3 +379,39 @@ Los Circuito Eliminador de Baterías o BEC por sus siglas en inglés (Battery El
     - Pueden insatalarse por separado
     - Pueden ser sustituidos con el módulo de potencia en algunos pilotos automáticos
   
+### Cámaras y Cardanes
+
+*Cámaras*
+ - Cámaras FPV
+    - Se instalan sobre el fuselaje
+    - No necesitan cardán
+    - Baja calidad
+    - Transmisión en tiempo real
+  
+ - Cámara de acción
+    - Alta calidad
+    - Almacenamiento en SD
+    - Transmisión de forma directa
+    - Necesita cardán
+    
+  - Cámara profesional
+     -  Alta calidad
+     -  Usadas normalmente en cartografías y para modelos de elevación
+     -  Interfaz de control de disparo remoto
+     -  Necesita cardán
+
+*Cardán*
+
+Estabiliza la cámara mientras el dron vuela, clasificándose dependiendo de la cantidad de ejes
+ - 2 ejes (cabeceo y alabeo)
+    - Ideal para cámaras de acción
+      
+ - 3 ejes
+    -  Más robusto
+    -  Costoso
+    -  Ideal para la cinematografía y captura de imágenes
+
+*Verificar que los motores soportarán la cámara*
+
+###Vista en Primera Persona
+
