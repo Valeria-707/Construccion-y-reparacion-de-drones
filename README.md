@@ -1,4 +1,4 @@
-# Tecnico en construccion y reparacion de drones
+# Técnico en construcción y reparación de drones
 
 ## ¿Qué es?
 
@@ -8,8 +8,9 @@ Estos son empleados por:
 - Empresas
 - Organizaciones
 - Aficinados
-
-Para los aficionados se desglosan los profesionales, los recreativos y educativos.
+  - Profesionales
+  - Recreativos
+  - Educativos.
 
 ## Tipos
 
@@ -21,4 +22,5 @@ Para los aficionados se desglosan los profesionales, los recreativos y educativo
 
 - Ala giratoria
 
-  - Usan las aas o los rotores 
+  - Usan las alas o los rotores giran a grann velocidad para elevar el dron
+  - Helicopteros son ejemplo
