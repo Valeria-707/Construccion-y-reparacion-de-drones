@@ -1,9 +1,12 @@
 # Construcción y reparación de drones
 
-## ¿Qué es?
+## Lección 1
+
+### ¿Qué es?
 
 Son sistemas de aeronaves pilotadas a distancia no tripulaladas (RPAS) que gracias a su tamaño y versatilidad son de mucha ayuda.
 Estos son empleados por:
+
 - Ejércitos
 - Empresas
 - Organizaciones
@@ -11,6 +14,7 @@ Estos son empleados por:
   - Profesionales
   - Recreativos
   - Educativos.
+
 
 ## Tipos
 
@@ -50,6 +54,7 @@ Estos son empleados por:
   - Consiste en pruebas para tener una visión de las ideas planeadas.
   - Elaboración de bocetos y desarrollo de los primeros prototipos.
 
+
 ## Tamaño
 
 Dependiendo de la masa total del dron, estos deben seguir las regulaciones pertinentes y vigentes del país donde vuelen.
@@ -69,22 +74,52 @@ Dependiendo de la masa total del dron, estos deben seguir las regulaciones perti
   - 2 kg hasta 25 kg: Privado no comercial
   - 25 kg o más: Comercial
 
+
 ## Caja de Herramientas, Materiales y Equipo de Protección
 
-*Herramientas*
-- Destornillador plano
-- Destornillador de estrella
-- Destornillador de punta
-- Multímetro
-- Llaves tipo Allen
-- Tornillo de banco
-- Pinzas o alzadores de plástico
-- Bridas o cintas de velcro
-- Empaladora o pinzas de compresión
+**Herramientas**
+ - Destornillador plano
+ - Destornillador de estrella
+ - Destornillador de punta
+ - Multímetro
+ - Llaves tipo Allen
+ - Tornillo de banco
+ - Pinzas o alzadores de plástico
+ - Bridas o cintas de velcro
+ - Empaladora o pinzas de compresión
 
-*Materiales*
-- Cables eléctricos AWG (diferentes colores)
-- Cinta para aislar
-- Fixador de roscas
-- Cables Dupont (hembra-macho)
-- Soldadura
+**Materiales**
+
+ - Cables eléctricos AWG (diferentes colores)
+ - Cinta para aislar
+ - Fijador de roscas
+ - Cables Dupont (hembra-macho)
+ - Soldadura
+ 
+**Equipo de Protección:**
+ - Pulsera antiestática
+ - Gafas protectoras
+ - Guantes antiestáticos
+
+
+*Lección 2: Piloto Automático*
+
+*Componentes:*
+
+Procesa la información de los sensores, activa los motores y otros dispositivos de control.
+
+*Considerado el cerebro del dron*
+
+Se compone de:
+- Controlador de vuelo
+- Sensores
+- Receptores satelitales externos
+- Radiocomunicaciones (módulo de telemetría)
+  - Le da funciones al dron
+
+*Las funciones se pueden modificar desde un celular, computadora o tableta.*
+
+Los controladores de vuelo más básicos se usan en helicópteros de carrera. Solo cuentan con los sensores esenciales (acelerómetro y giroscopio).
+- Miden el ángulo y la rotación para mantener la estabilidad.
+
+Hay algunos que cuentan con una pantalla LCD con botones para configurarlo sin necesidad de conectarlo a una PCB.
