@@ -137,3 +137,22 @@ Las funciones se pueden modificar desde un celular, computadora o tableta. Los c
 
  - Estación terrestre
    - Módulo de telemetría instalado en un dispositivo electrónico con software de control terrestre. Tiene un alcance de 1 km.
+
+
+### Sistema de radiocontrol
+
+Está conformado por un transmisor, así como un receptor montado arriba del dron que está conectado al piloto automático. El transmisor convierte el movimiento de las palancas y los botones en señales al receptor.
+
+  - Alabeo: Eje longitudinal
+  - Cabeceo: Eje transversal
+  - Guiñada: Eje vertical
+
+*Hay dos modos de para configurar el transmisor:*
+
+1.
+   - El acelerador y el alabeo se encuentran en la palanca derecha. Hacia arriba acelera y hacia abajo aminora la marcha. Los movimientos de izquierda y derecha inclinan el avión. Esta palanca no tiene muelle (no regresa al centro).
+   - La palanca izquierda controla el cabeceo y la guiñada. Arriba asciende, abajo desciende, derecha e izquierda giran. Tiene un muelle (regresa al centro).
+
+2. 
+   - El acelerador y la guiñada se encuentran en la palanca izquierda. Hacia arriba acelera, abajo aminora la marcha, derecha e izquierda giran. No tiene muelle.
+   - En la palanca derecha se controla el alabeo y el cabeceo. Arriba eleva, abajo desciende, derecha e izquierda inclinan el avión. Tiene un muelle.
