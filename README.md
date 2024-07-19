@@ -118,7 +118,7 @@ Procesa la información de los sensores, activa los motores y otros dispositivos
 
 Las funciones se pueden modificar desde un celular, computadora o tableta. Los controladores de vuelo más básicos se usan en helicópteros de carrera. Solo cuentan con los sensores esenciales (acelerómetro y giroscopio). Hay algunos que cuentan con una pantalla LCD con botones para configurarlo sin necesidad de conectarlo a una PCB. Las controladoras más avanzadas incluyen sensores más complejos como barómetros, GPS y otros accesorios.
 
-*Sensores*
+**Sensores**
 
  - Acelerómetros y giroscopios
    - Compuestos por 3 acelerómetros para medir la gravedad en los ejes x, y, z.
@@ -149,10 +149,32 @@ Está conformado por un transmisor, así como un receptor montado arriba del dro
 
 *Hay dos modos de para configurar el transmisor:*
 
-1.
+Modo 1
   - El acelerador y el alabeo se encuentran en la palanca derecha. Hacia arriba acelera y hacia abajo aminora la marcha. Los movimientos de izquierda y derecha inclinan el avión. Esta palanca no tiene muelle (no regresa al centro).
   - La palanca izquierda controla el cabeceo y la guiñada. Arriba asciende, abajo desciende, derecha e izquierda giran. Tiene un muelle (regresa al centro).
 
-2. 
+Modo 2
   - El acelerador y la guiñada se encuentran en la palanca izquierda. Hacia arriba acelera, abajo aminora la marcha, derecha e izquierda giran. No tiene muelle.
   - En la palanca derecha se controla el alabeo y el cabeceo. Arriba eleva, abajo desciende, derecha e izquierda inclinan el avión. Tiene un muelle.
+
+
+**Los Canales de Radio**
+
+Los canales son señales de radio que controlan cada función del avión.
+
+*Se necesitan mínimo 5 canales*
+   - CH1: Acelerador
+   - CH2: Alabeo
+   - CH3: Guiñada
+   - CH4: Cabeceo
+   - CH5: Modos de vuelo
+
+Aunque se pueden usar más canales, se debe revisar el manual de usuario para buscar las funciones que necesitamos.
+
+*Los Receptores*
+Cuentan con un número específico de canales para las funciones que se requieran, como de 16 canales. Al conectar el receptor con el transmisor se le llama enlace y difiere según el modelo de RC. Antes de comprar un receptor RC se debe considerar el tipo de antena. Después de esto, considerar la solidez y el rango de la conexión. Deben instalarse lejos de la electrónica y en un costado para que funcionen dentro de la banda de frecuencia de 2.4 GHz.
+
+   - Una antena: Mala recepción si se usa por mucho tiempo.
+   - Una antena de diversidad: Incrementa la capacidad de captación de la señal.
+   - Antenas impresas o de PCB: Tienen mejor recepción a grandes rangos.
+
