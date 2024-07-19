@@ -114,26 +114,26 @@ Procesa la información de los sensores, activa los motores y otros dispositivos
  - Sensores
  - Receptores satelitales externos
  - Radiocomunicaciones (módulo de telemetría)
-   - Le da funciones al dron
+    - Le da funciones al dron
 
 Las funciones se pueden modificar desde un celular, computadora o tableta. Los controladores de vuelo más básicos se usan en helicópteros de carrera. Solo cuentan con los sensores esenciales (acelerómetro y giroscopio). Hay algunos que cuentan con una pantalla LCD con botones para configurarlo sin necesidad de conectarlo a una PCB. Las controladoras más avanzadas incluyen sensores más complejos como barómetros, GPS y otros accesorios.
 
 *Sensores*
 
  - Acelerómetros y giroscopios
-  - Compuestos por 3 acelerómetros para medir la gravedad en los ejes x, y, z.
+   - Compuestos por 3 acelerómetros para medir la gravedad en los ejes x, y, z.
 
  - Barómetro
-  - Sensor que mide la presión atmosférica para determinar la altitud de vuelo.
+   - Sensor que mide la presión atmosférica para determinar la altitud de vuelo.
 
  - Magnetómetro
-  - Sensor de brújula que mide el campo magnético para conocer la dirección del dron (normalmente integrado en el GPS).
+   - Sensor de brújula que mide el campo magnético para conocer la dirección del dron (normalmente integrado en el GPS).
 
  - GPS
-  - Mide el tiempo que tardan las señales en llegar al receptor para determinar su posición tridimensional con respecto a la tierra. Su precisión es de 5-10 metros horizontalmente y 15 metros verticalmente.
+   - Mide el tiempo que tardan las señales en llegar al receptor para determinar su posición tridimensional con respecto a la tierra. Su precisión es de 5-10 metros horizontalmente y 15 metros verticalmente.
 
  - Módulo de alimentación
-  - Recibe la tensión de la batería, la filtra y la regula para proporcionar 3.3 o 5V al controlador de vuelo. También mide la capacidad de energía restante.
+   - Recibe la tensión de la batería, la filtra y la regula para proporcionar 3.3 o 5V al controlador de vuelo. También mide la capacidad de energía restante.
 
  - Estación terrestre
-  - Módulo de telemetría instalado en un dispositivo electrónico con software de control terrestre. Tiene un alcance de 1 km.
+   - Módulo de telemetría instalado en un dispositivo electrónico con software de control terrestre. Tiene un alcance de 1 km.
