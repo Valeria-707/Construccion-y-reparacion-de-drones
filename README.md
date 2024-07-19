@@ -178,3 +178,19 @@ Cuentan con un número específico de canales para las funciones que se requiera
    - Una antena de diversidad: Incrementa la capacidad de captación de la señal.
    - Antenas impresas o de PCB: Tienen mejor recepción a grandes rangos.
 
+## Motores y Hélices
+
+### Motores
+Los drones usan motores eléctricos sin escobillas del tipo "outrunner", es decir, sin carcasa externa. Estos motores se componen de dos partes principales:
+
+*El estator:* La parte fija del motor, con bobinas dispuestas en un patrón radial.
+*El rotor:* La parte giratoria con imanes permanentes en su interior.
+
+El modelo de un motor se identifica con un par de números de 4 dígitos cada uno. En el primer número, los dos primeros caracteres indican el modelo del motor, los dos siguientes indican el diámetro, y los últimos dos caracteres señalan la altura del estator en milímetros.
+
+Para el segundo número indica la constante de revoluciones por minuto.
+
+### Hélices
+
+Producen el empuje que el dron necesita para volar, simepre se eligen las hélices más grandes posibles de acorde al tamaño del marco y de los motores que utilice para maximizar el empuje.
+Entre menos revoluciones (KV), más grande la hélice
