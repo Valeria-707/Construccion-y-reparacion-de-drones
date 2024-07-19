@@ -16,7 +16,7 @@ Estos son empleados por:
   - Educativos.
 
 
-## Tipos
+### Tipos
 
 - Ala fija
   - Ala alta: Ubicada en la parte superior del dron
@@ -27,7 +27,7 @@ Estos son empleados por:
   - Usan las alas o los rotores giran a grann velocidad para elevar el dron
   - Helicópteros son ejemplo
  
-## Campos de Trabajos
+### Campos de Trabajos
 
 1.- Elaborar mapas
    - Con el uso de cámaras especiales y georreferenciados GPS, es posible ubicar con gran precisión las coordenadas sobre el suelo.
@@ -55,7 +55,7 @@ Estos son empleados por:
   - Elaboración de bocetos y desarrollo de los primeros prototipos.
 
 
-## Tamaño
+### Tamaño
 
 Dependiendo de la masa total del dron, estos deben seguir las regulaciones pertinentes y vigentes del país donde vuelen.
 
@@ -75,7 +75,7 @@ Dependiendo de la masa total del dron, estos deben seguir las regulaciones perti
   - 25 kg o más: Comercial
 
 
-## Caja de Herramientas, Materiales y Equipo de Protección
+### Caja de Herramientas, Materiales y Equipo de Protección
 
 **Herramientas**
  - Destornillador plano
@@ -102,24 +102,18 @@ Dependiendo de la masa total del dron, estos deben seguir las regulaciones perti
  - Guantes antiestáticos
 
 
-*Lección 2: Piloto Automático*
 
-*Componentes:*
+# Lección 2
 
-Procesa la información de los sensores, activa los motores y otros dispositivos de control.
+##Piloto Automático
 
-*Considerado el cerebro del dron*
+Procesa la información de los sensores, activa los motores y otros dispositivos de control. Es considerado el cerebro del dron
 
-Se compone de:
-- Controlador de vuelo
-- Sensores
-- Receptores satelitales externos
-- Radiocomunicaciones (módulo de telemetría)
-  - Le da funciones al dron
+*Se compone de:*
+ - Controlador de vuelo
+ - Sensores
+ - Receptores satelitales externos
+ - Radiocomunicaciones (módulo de telemetría)
+   - Le da funciones al dron
 
-*Las funciones se pueden modificar desde un celular, computadora o tableta.*
-
-Los controladores de vuelo más básicos se usan en helicópteros de carrera. Solo cuentan con los sensores esenciales (acelerómetro y giroscopio).
-- Miden el ángulo y la rotación para mantener la estabilidad.
-
-Hay algunos que cuentan con una pantalla LCD con botones para configurarlo sin necesidad de conectarlo a una PCB.
+Las funciones se pueden modificar desde un celular, computadora o tableta. Los controladores de vuelo más básicos se usan en helicópteros de carrera. Solo cuentan con los sensores esenciales (acelerómetro y giroscopio). Hay algunos que cuentan con una pantalla LCD con botones para configurarlo sin necesidad de conectarlo a una PCB.
