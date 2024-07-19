@@ -193,10 +193,15 @@ Para el segundo número indica la constante de revoluciones por minuto.
 Para escoger el motor adecuado para nuestro dron es necesario saber lo siguiente para escoger el más adecuado
 
 Diámetro - Tamaño del Motor - Rango KV
+
 3" - 1 306 - 3 000-4 000
+
 4" - 1 806 - 2 600-2 800
+
 5" - 2 204-2 206 - 2 300-2 600
+
 6" - 2 204-2 208 - 1 900-2 300
+
 7" - 2 206-2 210 - 1 450 - 1 600
 
 **Hélices**
