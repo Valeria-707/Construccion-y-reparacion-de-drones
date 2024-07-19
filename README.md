@@ -1,4 +1,4 @@
-# Técnico en construcción y reparación de drones
+# Construcción y reparación de drones
 
 ## ¿Qué es?
 
