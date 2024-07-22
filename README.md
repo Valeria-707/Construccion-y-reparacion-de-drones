@@ -415,3 +415,90 @@ Estabiliza la cámara mientras el dron vuela, clasificándose dependiendo de la 
 
 ###Vista en Primera Persona
 
+La Vista en Primera Persona, conocida por sus siglas en inglés FPV (First Person View), permite a las personas colocarse virtualmente en el asiento del piloto, gracias a una pantalla que muestra la vista del dron.
+
+*Se usa prinicpalmente*
+
+- Actividades profesionales
+   - Da imággenes y videos específicos
+   - Usado en la cinematografía y cartografía
+
+- Actividades recreativas
+   - Trasnmite video a gran velocidad
+   - Con un bajo valor de latencia
+   - Usado en carreras de drones
+   - Con cámaras tridimensionales
+
+*Elección de la cámara*
+ - Buena nitidez
+ - Buen peso
+ - Buena latencia
+    - Cámara FPV: 40-100 ms
+    - Cámara de acción: 140 ms
+    - Cámara profesional: 100 ms
+
+### Cardán
+
+El cardán es un componente que estabiliza la cámara mientra el dron está en movimiento
+
+*Clasificación*
+ - 2 Ejes
+    - Alabeo y Cabeceo
+    - Ideal para cámara de ación
+      
+ - 3 Ejes
+    - Alabeo, Cabeceoy Guiñada
+    - Más robusto y costoso
+    - Ideal para la cinematografía y captura de imágenes
+
+*Antena*
+
+Es el elemento más importannte del FPV, ya que permiten la comunicación entre el dron y su controlador. La elección de la antena adecuada puede mejorar significativamente el rendimiento y la confiabilidad del dron. 
+
+ - Polarización Lineal
+   - Es el estándar
+   - Los planos de la seal del recpetor y del transmisor estan alineados
+   - Habrá mejor señal mientras  el transmisor y el recpector estén en la misma posición
+     
+ - Polarización Circular
+    - Los planos se combinan para hacer una señal cilíndrica
+    - Aumenta la recepción
+    - Diisminuye la instensida
+    - Más robusta
+
+## Lección 2
+
+### Configuración del piloto automático
+
+1. Descargar el software del configurador de vuelo
+2. Conectar el micro USB al puertto del controlador de vuelo (CV), luego el USB al puerto correspondiente. *No hacer de otro orden o se dañará el componente*
+3. Con el configurador abierto, dar click en "Conectar"
+
+*Actualización del Firmware*
+1. Oprimir en "Desconectar"
+2. Elegir la opción "Instalar Firmware", lueo el modelo del controlador de vuelo y l última versión del firmware.
+3. Elegir "Cargar Firmware"
+4. Observar el botón "Instalar Firmware" debiendo este cambiar de color
+5. Algunos controladores de vuelo requieren el modo "bootloader" por lo que deberémos hacer un corto con algún objeto conductor
+6. Presionar le botón "Instalar Firmware"
+7. Desconectar el corto
+
+*Calibración del acelerómetro*
+1. Oprimir "Conectar" en el interfaz
+2. Elegir lapestaña "Setup" o "Configurar"
+3. Colocar el dron en una supericie nivelada
+4. Dar clic en "Calibrate Accelerometer"
+
+*Ajustes de radiocontrol*
+1. Dar clic en "Reciver" o "recpetor" en la interfaz
+2. Buscar el modelo del radiocontrol en el apartado "Channel Map", luego precionar en "Guadar" o "Save"
+3. Mover las palancas para comprobar que las barras de estado reaccionen correctamente
+
+*Configuración de los modos de vuelo*
+1. Dar clilic en "Receptor" en la intterfaz
+2. Verificar cada interruptor
+3. Dar clic en "Modos"
+4. Activar la casillas "HIGH"
+5. Activar "LOW, MED y HIGH"
+6. Dar clic en la casilla "Add Range"
+7. Elegir el canal y el rango
