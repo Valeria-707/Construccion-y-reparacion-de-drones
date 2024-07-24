@@ -468,6 +468,104 @@ Es el elemento más importannte del FPV, ya que permiten la comunicación entre 
 
 ## Lección 2
 
+### Diseño de un dron
+
+El diseño de un dron inicia cuando se decide la aplicación del dorn.
+Sus componentes varían de la aplicación
+
+ - Una vez teniendo el peso estimado de la carga útil, se puede iniciar con la selección de motores, hélices y controladores electrónicos de velocidad o ESC
+ - Una vez teniendo el peso estimado del dorn debemos revisar la tabla de datos de empuje de los motores para encontrar una combinación de motores y hélices
+ - Deberá producir un empuje al 50% de aceleración
+ - La elección del ESc está vinculada al consumo máximo de la corriente del consumo del motor.
+ - Si queremos que el dorn vuele el mayor tiempo posible elegiremos la batería con mayor capacidad
+ - Entre mayor capacidad tenga la batería, tendrá mayor peso
+
+ *Consumo máximo de una batería*
+ Capacidad de la bateríia (Ah) X Tasa de descarga de la batería (C)
+
+ *Tiempo de vuelo*
+ Potencia total de la batería / Consumo de potencia del motor X 60 min
+
+ *Potencia total de la batería*
+ Voltaje X Ampers
+
+ *Consumo de potencia del motor
+Peso del dron (kg) / eficiencia 50%
+
+###  Conexión de motores y ESC con soldadura elécctrica
+
+La conexión de motores y ESC suelen hacerse con conectores especiales tipo "banana", pero también pueden ser soldados
+
+1. Recortar los alambres y pelarlos con un pleacables
+2. Colocar thermofit en cada uno de los almabres del motor
+3. Conectar el cautín
+4. Sujetar los alambres con pinzas para tener las manos libres
+5. Acercar el cautín al alambre con la soldadura permitiendo que se rome una gota
+6. Repetir el paso anterior con cada uno de los alambres verificando que sea le giro de motores deseados
+7. Unir los alambres con soldadura con ayuda del cautín
+8. Recorrer el thermofit hasta las uniones y acercar la punta del cautín caliente para que se encoja
+9. Repetir el proceso con cada conexión
+
+### Construcción del marco y acoplamiento de los motores con los ESC
+
+Antes de construir un dorn debemos saber su aplicación. El modelo del tamaño del marco de un dron incluye en su empaque un número que indica su diámetro.
+
+Ejemplo:
+ABC200 - 200 mm es el díametro
+
+El tamaño del marco limita a los otros componentes
+
+*Construcción*
+1. Verificar que estén todos los componentes
+2. Construir el marco según su manual
+3. Mide la longitud de los brazos del dron
+4. Recortar los alambres de los motores y de los ESc, de forma que descansen sobre los brazos
+5. Verificar el giro deseado en cada motor
+
+  -Habrá la misma cantidad de motores girando en sentirdo horiario y antihorario
+6. Soldar los motores y los ESC
+7. Verificar la orientación de los motores según el controlador de vuelo
+8. Voltear el marco y enroscar los tornillos en la parte inferior a través del brazo hasta el motor
+9. Asegurar los ESC con bridas de plástico
+10. Soldar los cables de alimentación de los ESC
+11. Cubrir con cinta de aislar
+
+### Conexión de dispositivos de control, piloto automático y batería
+
+1. Colocar la electrónica de vuelo
+2. Verificar que los controladores de velovidad uentan con un circuito BEC
+
+    -Si no es el caso, deberás intalar un circuito BEc entre ñla PDB y el controlador de vuelo
+3. Colocar el pilóto automático sobre el marco con la flecha apuntando al frente del dron no sin antes colocar una placa antivibraciones y pregándolo con cinta de espuma de doble cara
+4. Conectar o soldar los cables del controlador de velocidad al pilóto automático o contorlador de vuelo según lo indicado por el fabricante
+
+ -Si el controlador cuenta con un eliminador de tipo conmutador, solo conecta uno de los cables rojos al pilóto automático o controlador de vuelo
+5. Conectar el receptor del radiocontrol verificando el tipo de codificación de la señal
+6. Conectar el receptor y el pilóto auotmático según sus instrucciones
+7. colocar el recpetor en su sitio sobre el marco y *asrgurar que la antena no quede atrapada por el giro de las hélices*
+8. Conectar la batería a la PDB, sujetándo la batería al marco con cinta o correas de gancho
+9. Conectar el módulo GPS revisando el manual
+10. Instalar el GPS, montando el módulo en un mástil, poniendo el mástil arriba del dron asegurando que el módulo está apuntando enfrente del dron
+
+### Ensamblado del cardán, cámara y FPV
+
+*Cardán*
+1. Atornillar el soporte antiviración en la parte inferior
+2. Colocar la cámara en el cardán
+3. Instalar el cardán en el soporte
+4. Conetar los cables de alimentación a la batería, esperando que emita un pitido o prenda algún led
+5. Desconectar los cables
+
+*Conexión del transmisor FPV*
+1. Conectar el FPV a la cámara
+2. Conectar los cables de alimentación del transmisor a la PDB
+3. Instalar (de no tener FPV) un viltro de voltaje entre el FPV y la PDB
+4. Conectar la cámara al transmisor de video
+5. Fijar la cámara FPV y transmisor al frente del dron con cinta adhesiva doble cara o bridas de plástico
+6. Colocar la antena al transmisor de video
+7. Conectar los cables de alimentación del transmisor al cable de equilibrio de la batería
+8. Esperamos que la cámara encienda y dectonectamos los cable de alimentacion
+
 ### Configuración del piloto automático
 
 1. Descargar el software del configurador de vuelo
@@ -501,32 +599,42 @@ Es el elemento más importannte del FPV, ya que permiten la comunicación entre 
 4. Activar la casillas "HIGH"
 5. Activar "LOW, MED y HIGH"
 6. Dar clic en la casilla "Add Range"
-7. 7. Elegir el canal y el rango
+7. Elegir el canal y el rango
    
-### Ensamblado del cardán, cámara y FPV
+## Lección 3
 
-*Cardán*
-1. Atornillar el soporte antiviración en la parte inferior
-2. Colocar la cámara en el cardán
-3. Instalar el cardán en el soporte
-4. Conetar los cables de alimentación a la batería, esperando que emita un pitido o prenda algún led
-5. Desconectar los cables
+### Equilibrio de las hélices
 
-*Conexión del transmisor FPV*
-1. Conectar el FPV a la cámara
-2. Conectar los cables de alimentación del transmisor a la PDB
-3. Instalar (de no tener FPV) un viltro de voltaje entre el FPV y la PDB
-4. Conectar la cámara al transmisor de video
-5. Fijar la cámara FPV y transmisor al frente del dron con cinta adhesiva doble cara o bridas de plástico
-6. Colocar la antena al transmisor de video
-7. Conectar los cables de alimentación del transmisor al cable de equilibrio de la batería
-8. Esperamos que la cámara encienda y dectonectamos los cable de alimentacion
+Las hélices son suseptibles a deformarse provocando turbulencias o colapsando contra el suelo, un árbol o cualquier otro objeto.
 
-### Conexión de dispositivos de control, piloto automático y batería
+*¿Cómo equilibrarlas?*
 
-1. Colocar la electrónica de vuelo
-2. Verificar que los controladores de velovidad uentan con un circuito BEC
+1. Colocar la hélice en el balanceador para identificar la ala más pesada
+2. Cortar un trozo de cinta de aislar y pergarlo en la pala más ligera
 
-    -Si no es el caso, deberás intalar un circuito BEc entre ñla PDB y el controlador de vuelo
-4. Colocar el pilóto automático sobre el marco con la flecha apuntando al frente del dron no sin antes colocar una placa antivibraciones y pregándolo con cinta de espuma de doble cara
-5. 
+    - Si la hélice se inclimna en la pala donde olocamos la cinta significa que es demasiado pesado. Sin embargo, solo se cobrará más cerca del centro hasta nivelarla
+3. Una vez equilibradas las palas de la hélice balanceamos el cubo
+   3.1 Colocar la hélice a 45° del balanceador, soltamos y observar si se inclina a algún lado
+   3.2 Voltear la hélice y repetir el paso anterior hasta que identifiquemos el lado pesado del cubo
+   3.3 Intentar con varios ángulos de inclinación
+4. Añadir cinta de aislar al lado más ligero
+   - O rebajar el lado más pesado con una lija de agua o lima
+5. Cuando la hélice está equilibrada, permanecerá estable. No importa el ángulo de inclinación
+
+*Evitar usar hélices de color blanco ya que serán difíciles de ver si la hélice está en mal estado*
+
+### Preba de cortocircuito
+
+Hay que evitar cortocircuitos, especialmente en las almoadillas de la PCB (Placa de Distribución de Energía) del motor y el controlador.
+
+*¿Cómo saber si hay algún cortocircuito?*
+
+Usaremos un multímetro en la opción de continuidad
+
+ - Todas las almoadillas positivas están conecctadas entre sí, por lo que al tocar cuaquiera de ellas tendrán ontinuidad escuchando un "beep"
+ - Lo mismo sucederá con las almoadillas negativas
+ - Tocar una almoadilla positiva y otra negativa, y no deberemos escuchar ningún sonido
+    - Pero si el mltímetro suena, deberemos encontrar el corto
+    - Puede ser un poco de soldadura derretida en una almoadilla positiva y negativa
+
+*Realizar este procedimiento siempre antes de construir*s
