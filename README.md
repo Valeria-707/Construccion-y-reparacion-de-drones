@@ -413,7 +413,7 @@ Estabiliza la cámara mientras el dron vuela, clasificándose dependiendo de la 
 
 *Verificar que los motores soportarán la cámara*
 
-###Vista en Primera Persona
+### Vista en Primera Persona
 
 La Vista en Primera Persona, conocida por sus siglas en inglés FPV (First Person View), permite a las personas colocarse virtualmente en el asiento del piloto, gracias a una pantalla que muestra la vista del dron.
 
@@ -501,4 +501,31 @@ Es el elemento más importannte del FPV, ya que permiten la comunicación entre 
 4. Activar la casillas "HIGH"
 5. Activar "LOW, MED y HIGH"
 6. Dar clic en la casilla "Add Range"
-7. Elegir el canal y el rango
+7. 7. Elegir el canal y el rango
+   
+### Ensamblado del cardán, cámara y FPV
+
+*Cardán*
+1. Atornillar el soporte antiviración en la parte inferior
+2. Colocar la cámara en el cardán
+3. Instalar el cardán en el soporte
+4. Conetar los cables de alimentación a la batería, esperando que emita un pitido o prenda algún led
+5. Desconectar los cables
+
+*Conexión del transmisor FPV*
+1. Conectar el FPV a la cámara
+2. Conectar los cables de alimentación del transmisor a la PDB
+3. Instalar (de no tener FPV) un viltro de voltaje entre el FPV y la PDB
+4. Conectar la cámara al transmisor de video
+5. Fijar la cámara FPV y transmisor al frente del dron con cinta adhesiva doble cara o bridas de plástico
+6. Colocar la antena al transmisor de video
+7. Conectar los cables de alimentación del transmisor al cable de equilibrio de la batería
+8. Esperamos que la cámara encienda y dectonectamos los cable de alimentacion
+
+### Conexión de dispositivos de control, piloto automático y batería
+
+1. Colocar la electrónica de vuelo
+2. Verificar que los controladores de velovidad uentan con un circuito BEC
+   -Si no es el caso, deberás intalar un circuito BEc entre ñla PDB y el controlador de vuelo
+3. Colocar el pilóto automático sobre el marco con la flecha apuntando al frente del dron no sin antes colocar una placa antivibraciones y pregándolo con cinta de espuma de doble cara
+4. 
