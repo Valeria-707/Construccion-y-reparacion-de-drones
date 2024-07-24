@@ -526,6 +526,7 @@ Es el elemento más importannte del FPV, ya que permiten la comunicación entre 
 
 1. Colocar la electrónica de vuelo
 2. Verificar que los controladores de velovidad uentan con un circuito BEC
-   -Si no es el caso, deberás intalar un circuito BEc entre ñla PDB y el controlador de vuelo
-3. Colocar el pilóto automático sobre el marco con la flecha apuntando al frente del dron no sin antes colocar una placa antivibraciones y pregándolo con cinta de espuma de doble cara
-4. 
+
+    -Si no es el caso, deberás intalar un circuito BEc entre ñla PDB y el controlador de vuelo
+4. Colocar el pilóto automático sobre el marco con la flecha apuntando al frente del dron no sin antes colocar una placa antivibraciones y pregándolo con cinta de espuma de doble cara
+5. 
