@@ -19,13 +19,13 @@ Estos son empleados por:
 ### Tipos
 
 - Ala fija
-  - Ala alta: Ubicada en la parte superior del dron
-  - Ala media: Ubicada en la parte media del fuselaje, da equilibrio y maniobrabilidad
-  - Ala bajo: Ubicada en la parte inferior del fuselaje
+  - Ala alta: Ubicada en la parte superior del dron.
+  - Ala media: Ubicada en la parte media del fuselaje, da equilibrio y maniobrabilidad.
+  - Ala bajo: Ubicada en la parte inferior del fuselaje.
 
 - Ala giratoria
-  - Usan las alas o los rotores giran a grann velocidad para elevar el dron
-  - Helicópteros son ejemplo
+  - Usan las alas o los rotores giran a grann velocidad para elevar el dron.
+  - Helicópteros son ejemplo.
  
 ### Campos de Trabajos
 
@@ -325,11 +325,11 @@ Se utilizan baterías de polímero de litio, también conocidas como LiPo. Estas
 
 *Capacidad*
 
-Su capacidad se mide en miliamperios hora (mAh) y aparece en la etiqueta. Cuanta mayor capacidad utilicemos, más tiempo podrá volar el dron.
+La capacidad se mide en miliamperios hora (mAh) y aparece en la etiqueta. Cuanta mayor capacidad tenga, más tiempo podrá volar el dron.
 
 *Desventajas*
 
-Entre más capacidad ocupemos, mayor será el peso.
+A mayor capacidad, mayor será el peso de la batería.
 
 *Celdas - Tensión Normal - Tensión mínima - Tensión máxima*
 
@@ -349,29 +349,30 @@ Entre más capacidad ocupemos, mayor será el peso.
 
 Indica que tan rápido se extrae la energía de la batería.
  - Se calcula multiplicando la capacidad de la batería por la tasa de descarga.
- - Sirve para comprobar ue la batería nos dará la corriente suficiente.
+ - Sirve para comprobar que la batería nos proporcionará la corriente suficiente.
 
 ### Controladores Electrónicos de Velocidad
 
-Los Controladores Electrónicos de Velocidad o ESC por sus siglas en inglés (Electronic Speed Controller) son disposistivos que interconectan a la batería y al controlador de vuelo para hacer girar a los motores a las velocidades deseadas.
+Los Controladores Electrónicos de Velocidad (ESC) interconectan la batería y el controlador de vuelo para ajustar la velocidad de los motores.
 
 *Caraterísticas*
 
- - Amperaje de salida: Define el tamaño del motor que se puede controlar, ejemplo:
+ - Amperaje de salida: Define el tamaño del motor que se puede controlar
+   Ejemplos:
     - 10 - 12 amperios: Multirrotores peueños
     - 20 - 30 amperios: Multirrotores con cámaras
 
- - Voltaje de operación: Indica los voltajes mínimo y máximo con los que puede funcionar.
+ - Voltaje de Operación: Indica los voltajes mínimo y máximo con los que puede funcionar.
 
 ### Circuito Eliminador de Baterías
 
-Los Circuito Eliminador de Baterías o BEC por sus siglas en inglés (Battery Eliminator Circuit) reducen ele voltaje de la batería hasta un voltaje estable de 5 volts. Normalmente vienen incluidos en los ESC, pero hay excepciones.
+Los Circuitos Eliminadores de Baterías (BEC) reducen el voltaje de la batería a un nivel estable de 5 volts. Normalmente vienen incluidos en los ESC, pero hay excepciones.
 
 *Tipos*
- - Switching Bec (SBEC)
+ - Switching BEC (SBEC)
     - No se calientan
     - Más eficientes
-    - Interfiere con los equipos de rad.iocontrol
+    - Pueden interfierir con los equipos de radio control
 
  - OPTO ESC
     - Controlador con aislante térmico
@@ -379,7 +380,7 @@ Los Circuito Eliminador de Baterías o BEC por sus siglas en inglés (Battery El
 
  - BEC externo
     - Pueden insatalarse por separado
-    - Pueden ser sustituidos con el módulo de potencia en algunos pilotos automáticos
+    - Pueden ser sustituidos por el módulo de potencia en algunos pilotos automáticos
   
 ### Cámaras y Cardanes
 
@@ -390,77 +391,63 @@ Los Circuito Eliminador de Baterías o BEC por sus siglas en inglés (Battery El
     - Baja calidad
     - Transmisión en tiempo real
   
- - Cámara de acción
+ - Cámara de Acción
     - Alta calidad
     - Almacenamiento en SD
-    - Transmisión de forma directa
+    - Transmisión directa
     - Necesita cardán
     
   - Cámara profesional
      -  Alta calidad
-     -  Usadas normalmente en cartografías y para modelos de elevación
+     -  Usadas principlamente para cartografías y modelos de elevación
      -  Interfaz de control de disparo remoto
      -  Necesita cardán
 
 *Cardán*
 
-Estabiliza la cámara mientras el dron vuela, clasificándose dependiendo de la cantidad de ejes
+Estabiliza la cámara mientras el dron vuela, clasificándose según la cantidad de ejes
  - 2 ejes (cabeceo y alabeo)
     - Ideal para cámaras de acción
       
- - 3 ejes
+ - 3 ejes (cabeceo, alabeo y guiñada)
     -  Más robusto
     -  Costoso
     -  Ideal para la cinematografía y captura de imágenes
 
-*Verificar que los motores soportarán la cámara*
+*Verificar que los motores soporten el peso de la cámara*
 
 ### Vista en Primera Persona
 
-La Vista en Primera Persona, conocida por sus siglas en inglés FPV (First Person View), permite a las personas colocarse virtualmente en el asiento del piloto, gracias a una pantalla que muestra la vista del dron.
+La Vista en Primera Persona (FPV) permite a las personas colocarse virtualmente en el asiento del piloto, gracias a una pantalla que muestra la vista del dron.
 
-*Se usa prinicpalmente*
+Se usa prinicpalmente:
 
-- Actividades profesionales
-   - Da imággenes y videos específicos
+- Actividades Profesionales:
+   - Ofece imágenes y videos específicos
    - Usado en la cinematografía y cartografía
 
-- Actividades recreativas
-   - Trasnmite video a gran velocidad
-   - Con un bajo valor de latencia
+- Actividades Recreativas:
+   - Trasnmite video a alta velocidad
+   - Baja latencia
    - Usado en carreras de drones
    - Con cámaras tridimensionales
 
 *Elección de la cámara*
  - Buena nitidez
  - Buen peso
- - Buena latencia
+ - Buena latencia:
     - Cámara FPV: 40-100 ms
     - Cámara de acción: 140 ms
     - Cámara profesional: 100 ms
 
-### Cardán
-
-El cardán es un componente que estabiliza la cámara mientra el dron está en movimiento
-
-*Clasificación*
- - 2 Ejes
-    - Alabeo y Cabeceo
-    - Ideal para cámara de ación
-      
- - 3 Ejes
-    - Alabeo, Cabeceoy Guiñada
-    - Más robusto y costoso
-    - Ideal para la cinematografía y captura de imágenes
-
 *Antena*
 
-Es el elemento más importannte del FPV, ya que permiten la comunicación entre el dron y su controlador. La elección de la antena adecuada puede mejorar significativamente el rendimiento y la confiabilidad del dron. 
+Es el elemento más importannte del FPV, ya que permite la comunicación entre el dron y su controlador. La elección adecuada de la antena adecuada puede mejorar significativamente el rendimiento y la confiabilidad del dron. 
 
  - Polarización Lineal
    - Es el estándar
-   - Los planos de la seal del recpetor y del transmisor estan alineados
-   - Habrá mejor señal mientras  el transmisor y el recpector estén en la misma posición
+   - Los planos de la señal del recpetor y del transmisor están alineados
+   - Mejor señal cuando el transmisor y el recpector estén en la misma posición
      
  - Polarización Circular
     - Los planos se combinan para hacer una señal cilíndrica
@@ -472,15 +459,14 @@ Es el elemento más importannte del FPV, ya que permiten la comunicación entre 
 
 ### Diseño de un dron
 
-El diseño de un dron inicia cuando se decide la aplicación del dorn.
-Sus componentes varían de la aplicación
+El diseño de un dron comienza con la definición de su aplicación. Los componentes varían según la aplicación específica.
 
- - Una vez teniendo el peso estimado de la carga útil, se puede iniciar con la selección de motores, hélices y controladores electrónicos de velocidad o ESC
- - Una vez teniendo el peso estimado del dorn debemos revisar la tabla de datos de empuje de los motores para encontrar una combinación de motores y hélices
- - Deberá producir un empuje al 50% de aceleración
- - La elección del ESc está vinculada al consumo máximo de la corriente del consumo del motor.
- - Si queremos que el dorn vuele el mayor tiempo posible elegiremos la batería con mayor capacidad
- - Entre mayor capacidad tenga la batería, tendrá mayor peso
+ 1. Una vez estimado el peso de la carga útil, se puede iniciar con la selección de motores, hélices y controladores electrónicos de velocidad (ESC).
+ 2. Con el peso estimado del dron, se debe revisar la tabla de datos de empuje de los motores para encontrar una combinación adecuada de motores y hélices.
+ - La combinación debe producir un empuje al 50% de aceleración.
+ - La elección del ESC está vinculada al consumo máximo de corriente del motor.
+ - Si se desea que el dron vuele el mayor tiempo posible, se elegirá la batería con mayor capacidad.
+ - A mayor capacidad de la batería, mayor será su peso.
 
  *Consumo máximo de una batería*
  Capacidad de la bateríia (Ah) X Tasa de descarga de la batería (C)
@@ -496,21 +482,21 @@ Peso del dron (kg) / eficiencia 50%
 
 ###  Conexión de motores y ESC con soldadura elécctrica
 
-La conexión de motores y ESC suelen hacerse con conectores especiales tipo "banana", pero también pueden ser soldados
+La conexión de motores y ESC generalmente se realiza con conectores tipo "banana", pero también se pueden soldar.
 
-1. Recortar los alambres y pelarlos con un pleacables
-2. Colocar thermofit en cada uno de los almabres del motor
-3. Conectar el cautín
-4. Sujetar los alambres con pinzas para tener las manos libres
-5. Acercar el cautín al alambre con la soldadura permitiendo que se rome una gota
-6. Repetir el paso anterior con cada uno de los alambres verificando que sea le giro de motores deseados
-7. Unir los alambres con soldadura con ayuda del cautín
-8. Recorrer el thermofit hasta las uniones y acercar la punta del cautín caliente para que se encoja
-9. Repetir el proceso con cada conexión
+1. Recortar los alambres y pelarlos con un pelacables.
+2. Colocar thermofit en cada uno de los alambres del motor.
+3. Conectar el cautín.
+4. Sujetar los alambres con pinzas para tener las manos libres.
+5. Acercar el cautín al alambre con la soldadura permitiendo que se rome una gota.
+6. Repetir el paso anterior con cada uno de los alambres, verificando que sea logre el giro de motores deseados.
+7. Unir los alambres con soldadura con ayuda del cautín.
+8. Recorrer el thermofit hasta las uniones y acercar la punta del cautín caliente para que se encoja.
+9. Repetir el proceso con cada conexión.
 
 ### Construcción del marco y acoplamiento de los motores con los ESC
 
-Antes de construir un dorn debemos saber su aplicación. El modelo del tamaño del marco de un dron incluye en su empaque un número que indica su diámetro.
+Antes de construir un dron, debemos saber su aplicación. El tamaño del marco incluye un número que indica su diámetro.
 
 Ejemplo:
 ABC200 - 200 mm es el díametro
@@ -518,55 +504,52 @@ ABC200 - 200 mm es el díametro
 El tamaño del marco limita a los otros componentes
 
 *Construcción*
-1. Verificar que estén todos los componentes
-2. Construir el marco según su manual
-3. Mide la longitud de los brazos del dron
-4. Recortar los alambres de los motores y de los ESc, de forma que descansen sobre los brazos
-5. Verificar el giro deseado en cada motor
-
+1. Verificar que estén todos los componentes.
+2. Construir el marco según su manual.
+3. Medir la longitud de los brazos del dron.
+4. Recortar los alambres de los motores y de los ESc de forma que descansen sobre los brazos.
+5. Verificar el giro deseado en cada motor.
   -Habrá la misma cantidad de motores girando en sentirdo horiario y antihorario
 6. Soldar los motores y los ESC
-7. Verificar la orientación de los motores según el controlador de vuelo
-8. Voltear el marco y enroscar los tornillos en la parte inferior a través del brazo hasta el motor
-9. Asegurar los ESC con bridas de plástico
-10. Soldar los cables de alimentación de los ESC
-11. Cubrir con cinta de aislar
+7. Verificar la orientación de los motores según el controlador de vuelo.
+8. Voltear el marco y enroscar los tornillos en la parte inferior a través del brazo hasta el motor.
+9. Asegurar los ESC con bridas de plástico.
+10. Soldar los cables de alimentación de los ESC.
+11. Cubrir con cinta de aislar.
 
 ### Conexión de dispositivos de control, piloto automático y batería
 
 1. Colocar la electrónica de vuelo
-2. Verificar que los controladores de velovidad uentan con un circuito BEC
-
-    -Si no es el caso, deberás intalar un circuito BEc entre ñla PDB y el controlador de vuelo
-3. Colocar el pilóto automático sobre el marco con la flecha apuntando al frente del dron no sin antes colocar una placa antivibraciones y pregándolo con cinta de espuma de doble cara
+2. Verificar que los controladores de velocidad cuenten con un circuito BEC
+    -Si no es el caso, deberás intalar un circuito BEC entre la PDB y el controlador de vuelo.
+3. Colocar el piloto automático sobre el marco con la flecha apuntando al frente del dron, no sin antes colocar una placa antivibraciones y pregarla con cinta de espuma de doble cara.
 4. Conectar o soldar los cables del controlador de velocidad al pilóto automático o contorlador de vuelo según lo indicado por el fabricante
-
- -Si el controlador cuenta con un eliminador de tipo conmutador, solo conecta uno de los cables rojos al pilóto automático o controlador de vuelo
-5. Conectar el receptor del radiocontrol verificando el tipo de codificación de la señal
-6. Conectar el receptor y el pilóto auotmático según sus instrucciones
-7. colocar el recpetor en su sitio sobre el marco y *asrgurar que la antena no quede atrapada por el giro de las hélices*
-8. Conectar la batería a la PDB, sujetándo la batería al marco con cinta o correas de gancho
-9. Conectar el módulo GPS revisando el manual
-10. Instalar el GPS, montando el módulo en un mástil, poniendo el mástil arriba del dron asegurando que el módulo está apuntando enfrente del dron
+ -Si el controlador cuenta con un eliminador de tipo conmutador, solo conecta uno de los cables rojos al pilóto automático o controlador de vuelo.
+5. Conectar el receptor del radiocontrol verificando el tipo de codificación de la señal.
+6. Conectar el receptor y el piloto auotmático según sus instrucciones.
+7. Colocar el recpetor en su sitio sobre el marco y *asrgurar que la antena no quede atrapada por el giro de las hélices*.
+8. Conectar la batería a la PDB, sujetándola al marco con cinta o correas de gancho.
+9. Conectar el módulo GPS revisando el manual.
+10. Instalar el GPS, montando el módulo en un mástil, poniendo el mástil arriba del dron asegurando que el módulo está apuntando enfrente del dron.
 
 ### Ensamblado del cardán, cámara y FPV
 
 *Cardán*
-1. Atornillar el soporte antiviración en la parte inferior
-2. Colocar la cámara en el cardán
-3. Instalar el cardán en el soporte
-4. Conetar los cables de alimentación a la batería, esperando que emita un pitido o prenda algún led
-5. Desconectar los cables
+1. Atornillar el soporte antiviración en la parte inferior.
+2. Colocar la cámara en el cardán.
+3. Instalar el cardán en el soporte.
+4. Conetar los cables de alimentación a la batería, esperando que emita un pitido o prenda algún led.
+5. Desconectar los cables.
 
 *Conexión del transmisor FPV*
-1. Conectar el FPV a la cámara
-2. Conectar los cables de alimentación del transmisor a la PDB
-3. Instalar (de no tener FPV) un viltro de voltaje entre el FPV y la PDB
-4. Conectar la cámara al transmisor de video
-5. Fijar la cámara FPV y transmisor al frente del dron con cinta adhesiva doble cara o bridas de plástico
-6. Colocar la antena al transmisor de video
-7. Conectar los cables de alimentación del transmisor al cable de equilibrio de la batería
-8. Esperamos que la cámara encienda y dectonectamos los cable de alimentacion
+1. Conectar el FPV a la cámara.
+2. Conectar los cables de alimentación del transmisor a la PDB.
+3. Instalar (de no tener FPV) un viltro de voltaje entre el FPV y la PDB.
+4. Conectar la cámara al transmisor de video.
+5. Fijar la cámara FPV y transmisor al frente del dron con cinta adhesiva doble cara o bridas de plástico.
+6. Colocar la antena al transmisor de video.
+7. Conectar los cables de alimentación del transmisor al cable de equilibrio de la batería.
+8. Esperamos que la cámara encienda y dectonectamos los cable de alimentación.
 
 ### Configuración del piloto automático
 
@@ -575,33 +558,36 @@ El tamaño del marco limita a los otros componentes
 3. Con el configurador abierto, dar click en "Conectar"
 
 *Actualización del Firmware*
-1. Oprimir en "Desconectar"
+1. Oprimir en "Desconectar".
 2. Elegir la opción "Instalar Firmware", lueo el modelo del controlador de vuelo y l última versión del firmware.
-3. Elegir "Cargar Firmware"
-4. Observar el botón "Instalar Firmware" debiendo este cambiar de color
-5. Algunos controladores de vuelo requieren el modo "bootloader" por lo que deberémos hacer un corto con algún objeto conductor
-6. Presionar le botón "Instalar Firmware"
-7. Desconectar el corto
+3. Elegir "Cargar Firmware".
+4. Observar el botón "Instalar Firmware" debiendo este cambiar de color.
+5. Algunos controladores de vuelo requieren el modo "bootloader" por lo que deberémos hacer un corto con algún objeto conductor.
+6. Presionar le botón "Instalar Firmware".
+7. Desconectar el corto.
 
 *Calibración del acelerómetro*
-1. Oprimir "Conectar" en el interfaz
-2. Elegir lapestaña "Setup" o "Configurar"
-3. Colocar el dron en una supericie nivelada
-4. Dar clic en "Calibrate Accelerometer"
+1. Oprimir "Conectar" en el interfaz.
+2. Elegir la pestaña "Setup" o "Configurar".
+3. Colocar el dron en una supericie nivelada.
+4. Dar clic en "Calibrate Accelerometer".
 
 *Ajustes de radiocontrol*
-1. Dar clic en "Reciver" o "recpetor" en la interfaz
-2. Buscar el modelo del radiocontrol en el apartado "Channel Map", luego precionar en "Guadar" o "Save"
-3. Mover las palancas para comprobar que las barras de estado reaccionen correctamente
+1. Dar clic en "Reciver" o "recpetor" en la interfaz.
+2. Buscar el modelo del radiocontrol en el apartado "Channel Map", luego precionar en "Guardar" o "Save".
+3. Mover las palancas para comprobar que las barras de estado reaccionen correctamente.
 
 *Configuración de los modos de vuelo*
-1. Dar clilic en "Receptor" en la intterfaz
-2. Verificar cada interruptor
-3. Dar clic en "Modos"
-4. Activar la casillas "HIGH"
-5. Activar "LOW, MED y HIGH"
-6. Dar clic en la casilla "Add Range"
-7. Elegir el canal y el rango
+1. Dar clic en "Receptor" en la intterfaz.
+2. Verificar cada interruptor.
+3. Dar clic en "Modos".
+4. Activar la casillas "HIGH".
+5. Activar "LOW, MED y HIGH".
+6. Dar clic en la casilla "Add Range".
+7. Elegir el canal y el rango.
+
+
+
    
 ## Lección 3
 
@@ -611,19 +597,18 @@ Las hélices son suseptibles a deformarse provocando turbulencias o colapsando c
 
 *¿Cómo equilibrarlas?*
 
-1. Colocar la hélice en el balanceador para identificar la ala más pesada
-2. Cortar un trozo de cinta de aislar y pergarlo en la pala más ligera
+1. Colocar la hélice en el balanceador para identificar la ala más pesada.
+2. Cortar un trozo de cinta de aislar y pergarlo en la pala más ligera.
+    - Si la hélice se inclimna en la pala donde olocamos la cinta significa que es demasiado pesado. Sin embargo, solo se cobrará más cerca del centro hasta nivelarla.
+3. Una vez equilibradas las palas de la hélice balanceamos el cubo.
+   3.1 Colocar la hélice a 45° del balanceador, soltamos y observar si se inclina a algún lado.
+   3.2 Voltear la hélice y repetir el paso anterior hasta que identifiquemos el lado pesado del cubo.
+   3.3 Intentar con varios ángulos de inclinación.
+4. Añadir cinta de aislar al lado más ligero.
+   - O rebajar el lado más pesado con una lija de agua o lima.
+5. Cuando la hélice está equilibrada, permanecerá estable. No importa el ángulo de inclinación.
 
-    - Si la hélice se inclimna en la pala donde olocamos la cinta significa que es demasiado pesado. Sin embargo, solo se cobrará más cerca del centro hasta nivelarla
-3. Una vez equilibradas las palas de la hélice balanceamos el cubo
-   3.1 Colocar la hélice a 45° del balanceador, soltamos y observar si se inclina a algún lado
-   3.2 Voltear la hélice y repetir el paso anterior hasta que identifiquemos el lado pesado del cubo
-   3.3 Intentar con varios ángulos de inclinación
-4. Añadir cinta de aislar al lado más ligero
-   - O rebajar el lado más pesado con una lija de agua o lima
-5. Cuando la hélice está equilibrada, permanecerá estable. No importa el ángulo de inclinación
-
-*Evitar usar hélices de color blanco ya que serán difíciles de ver si la hélice está en mal estado*
+*Evitar usar hélices de color blanco ya que serán difíciles de ver si la hélice está en mal estado.*
 
 ### Prueba de cortocircuito
 
@@ -705,17 +690,67 @@ El proceso de enlace entre el transmisor y el receptor es similar al proceso de 
 
 Si esto ocurre, el enlace ha sido exitoso.
 
+
+
+
 ## Lección 4
 
 ### Controles de seguridad antes de volar
 
- - Antes de despegar deberás asegurarte que la batería lipo y la bateria del transmisor de radiocontrol estén completamente cargados.
- - Verficar si está autorizado volar en ese lugar.
- - Verificar el pronóstico del tiempo para evaluar las condiciones del viento.
- - Sujetar correctamente todo el euqipo (especialmente la batería).
- - Comprobar que los cables estén asegurados con firmeza.
- - Ajustar tornillos.
- - Comprobar que los sensores estén calibrados.
- - Corroborar el interfaz del pilóto automático.
+ - Asegúrate de que la batería LiPo y la batería del transmisor de radiocontrol estén completamente cargados.
+ - Verfica si está autorizado volar en el lugar seleccionado.
+ - Consultar el pronóstico del tiempo para evaluar las condiciones del viento.
+ - Asegura correctamente todo el equipo, especialmente la batería.
+ - Comprueba que los cables estén firmemente asegurados.
+ - Ajusta los tornillos.
+ - Comprueba que los cables estén firmemente asegurados.
+ - Corrobora el interfaz del piloto automático.
 
-### Segur
+### Segurdad durante el vuelo
+
+Cada país cuenta con su propio código civil aeronáutico. Debes revisarlo, atender sus indicaciones y evitar volar de forma que no ponga en peligro a nadie.
+
+  - Mantén la vista en tu dron para ver y evitar obstáculos.
+  - Evita que la distancia horizontal de vuelo exceda los 457 metros (1,500 pies).
+  - Evita volar a una altura mayor a 120 metros (400 pies).
+  - Respeta las instrucciones de operación del fabricante en cada vuelo.
+  - Mantén una distancia vertical de al menos 46 metros (150 pies) de personas y propiedades.
+  - No sobrevueles multitudes ni áreas urbanas, manteniendo una distancia de al menos 150 metros (500 pies).
+
+
+
+### Drones anfibios y submarinos
+
+#### Drones submarinos
+
+Se utilizan principalmente en actividades industriales y militares, como la pesca, filmaciones submarinas, inspección de cascos de embarcaciones, presas, puertos, infraestructuras submarinas e investigación científica; pero también hay modelos para aficionados.
+
+La mayoría está equipada con sensores para evitar colisiones con obstáculos, cámara HD/1080p o UHD/4k, y focos potentes.
+
+#### Drones alámbricos
+
+Cuentan con un cable para transmitir video e impedir que el dron se hunda o sea arrastrado por alguna corriente.
+
+- Cámara 4k
+- Focos de 1000 hasta 4000 lúmenes
+- Gafas FPV
+- Brazos robóticos para tomar muestras
+- Lastres para sumergirse
+- Baterías de 60 - 280 min
+- Máximo alcance de inmersión de 30 - 300 m
+
+### Drones inámbricos
+
+- Uso recreativo.
+- Alcanzan 60 m de profundidad.
+- Tiempo de vida de la batería de 60 - 120 min.
+- Función de seguimiento.
+- Útil en buceo.
+- Retorno automático antes de que la batería se agote.
+
+### Drones anfibios
+
+- Vuelan y flotan.
+- Se sumergen ligeramente.
+- Cámara FPV y de acción.
+- Características de un dron aéreo.
