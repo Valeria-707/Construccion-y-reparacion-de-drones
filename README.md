@@ -234,41 +234,42 @@ Para escoger el motor adecuado para nuestro dron es necesario saber lo siguiente
 
 **Hélices**
 
-Producen el empuje que el dron necesita para volar, simepre se eligen las hélices más grandes posibles de acorde al tamaño del marco y de los motores que utilice para maximizar el empuje.
-Entre menos revoluciones (KV), más grande la hélice.
+Las hélices producen el empuje necesario para que el dron vuele. Siempre se deben elegir las hélices más grandes posibles en función del tamaño del marco y los motores para maximizar el empuje. A menor número de revoluciones (KV), mayor tamaño de la hélice.
 
-Las hélices están hechas de varios materiales, y cada uno es especial para cada uso por sus caraccterísticas.
+Las hélices están fabricadas con diversos materiales, cada uno adecuado para usos específicos debido a sus características:
+
  - Plástico:
-    - Muy comunes
-    - Bajo costo
-    - Flexibles
-    - No resistentes para carga
+   - Muy comunes
+   - Bajo costo
+   - Flexibles
+   - No resistentes para cargas pesadas
 
- - Plástico Reforzado:
-    - Flexibles
-    - Fuertes
-    - Costo moderado
-    - Rigidas
-  
- - Fribra de carbono:
-    - Rigidas
-    - Fuertes
-    - Ligeras
-    - Aerodinámicas
-    - Cosotas
-  
- - Madera:
-    - Costosa
-    - Pesada
-    - Con mayor impulso apara carga pesada
+- Plástico Reforzado:
+   -  Flexibles
+   - Fuertes
+   - Costo moderado
+   - Rígidas
 
-El tamaño de una hélice va indicada en pulgadas por cuatro digitos. Los primeros dos dígitos indican el díametro entre punta a punta, los otroa dos dígitos indican el paso de la hélices, es deir, la distancia ue avanza en un giro.
+- Fibra de Carbono:
 
-En términos de eficiencia es mejor usar palas, pero se usan 3 palas cuando el diámetro es muy pequeñi y tienen que aumentar el empuje. Son vistas principalmente eb avones de ala fija y cuadricópeteros.
+   - Rígidas
+   - Fuertes
+   - Ligeras
+   - Aerodinámicas
+   - Costosas
+     
+- Madera:
+   - Costosa
+   - Pesada
+   - Ofrecen mayor impulso para cargas pesadas
+     
+El tamaño de una hélice se indica en pulgadas mediante cuatro dígitos. Los primeros dos dígitos indican el diámetro de punta a punta, y los otros dos dígitos indican el paso de la hélice, es decir, la distancia que avanza en un giro.
+
+En términos de eficiencia, es mejor utilizar palas, pero se usan tres palas cuando el diámetro es muy pequeño y se necesita aumentar el empuje. Esto es común en aviones de ala fija y cuadricópteros.
 
 ### Fuselaje
 
-Es el cuerpo de un avión fabricado de diversos materiales para los drones de ala fija.
+El fuselaje es el cuerpo de un avión fabricado con diversos materiales para drones de ala fija:
  - Dron de espuma: Uso recreativo
  - Dron de madera: Uso recreativo
  - Dron de fibra de carbono: Uso profesional
@@ -276,45 +277,46 @@ Es el cuerpo de un avión fabricado de diversos materiales para los drones de al
 
 ### Carga útil
 
-El pilóto automático, la batería, el recpetor del rdio control, el módulo aérreo de telemetría y la cámara conforman la carga útil, siendo el peso de todos los componentes que se usarán en la construcción.
+La carga útil incluye el piloto automático, la batería, el receptor del radio control, el módulo aéreo de telemetría y la cámara. Es el peso total de los componentes que se usarán en la construcción.
 
- - Se debe verificar que el fuselaje tenga espacio suficiente para albergar los componentes
+ - Se debe verificar que el fuselaje tenga espacio suficiente para albergar los componentes.
 
 ### Centro de gravedad
 
-Es el punto de equilibriodel deonn, si este punto está desubicado, el vuelo del dron puede ser inestable o provocar su desplome.
+El centro de gravedad es el punto de equilibrio del dron. Si este punto está desubicado, el vuelo del dron puede volverse inestable o provocar su desplome.
 
 ### Servomotores
 
-Son pqueqños motores, hechhos de metol o plastico con un preciso control de posicionamiento. También se utilizan en tareas como inncinar una cámara hacia arriba o abajo.
+Son pequeños motores, hechos de metal o plástico, con un control preciso de posicionamiento. Se utilizan para tareas como inclinar una cámara hacia arriba o abajo.
 
 ### Marco multirrotor
 
-Cuentan con la ventaja de su simplicidad mecánica, y la placa central de su marco puede fabricarse en madera i termipláticos en impresoras 3D o máquinas CNC.
+Los marcos multirrotor tienen la ventaja de una simplicidad mecánica. La placa central del marco puede fabricarse en madera o termoplásticos utilizando impresoras 3D o máquinas CNC.
 
 ### Placa Central
 
-Construida con fibbra de vidrio o fibra de carbono. Esta no debe de exceder el peso máximo de despegue.
+Construida con fibra de vidrio o fibra de carbono. No debe exceder el peso máximo de despegue.
 
 ### Brazos
 
-Fabricados de varios materiales como; plástico, fibra de vidrio o fibra de carbono. Tienen formas de prismas rectangulares o tubulares e incluso algunos pueden llegar a ser pegables.
+Fabricados con varios materiales como plástico, fibra de vidrio o fibra de carbono. Tienen formas de prismas rectangulares o tubulares; algunos pueden ser plegables.
 
 ###  PLaca de Districución de Energía
 
-La Placa de Distribución de Energía o también conocido por sus siglas en inglés PDB (Power Distribution Board) evita la tedios tarea de soldar motores con sus respectivos ESC y el resto de componentes. Esta placa ya viene integrada para facilitar la energización de los dispositivos electrónicos y motores.
+La Placa de Distribución de Energía (PDB) facilita la conexión de los motores con sus respectivos ESC y otros componentes. Esta placa ya viene integrada para simplificar la energización de los dispositivos electrónicos y motores.
+
  - Se debe verificar que su capacidad de corriente sea superiorm al consumo de los motores.
 
 ### Tren de aterrizaje
 
-Si se requiere instalar un cardán (mecanismo de estabilización) se debe de instalar igualmente un tren de aterrizaje, con una distancia sificiente entre la base del marco y el suelo.
- - Recubre el tren de aterrizaje con tubos de espuma para proteger aún más la estabilización durante los aterrizajes.
+Si se requiere instalar un cardán (mecanismo de estabilización), también se debe instalar un tren de aterrizaje con una distancia suficiente entre la base del marco y el suelo.
+ - Recubrir el tren de aterrizaje con tubos de espuma para proteger aún más la estabilización durante los aterrizajes.
 
 ### Monocasco
 
-Es un marco ligero y robuso donde se encuentrab los elementos que controlan el dron.
- - Los dornas que ya se adquieren listos para volar ya los incluyen desde su compra.
- - A veces pueden ser incómodos al momento de repararlos
+Es un marco ligero y robuso donde se encuentran los elementos que controlan el dron.
+ - Los dornas que se compran listos para volar yaincluyen el monocasco.
+ - A veces, los monocascos pueden ser incómodos al momento de repararlos
 
 ### Baterías
 
@@ -623,18 +625,97 @@ Las hélices son suseptibles a deformarse provocando turbulencias o colapsando c
 
 *Evitar usar hélices de color blanco ya que serán difíciles de ver si la hélice está en mal estado*
 
-### Preba de cortocircuito
+### Prueba de cortocircuito
 
-Hay que evitar cortocircuitos, especialmente en las almoadillas de la PCB (Placa de Distribución de Energía) del motor y el controlador.
+Es crucial evitar cortocircuitos, especialmente en las almohadillas de la PCB (Placa de Distribución de Energía) del motor y el controlador.
 
-*¿Cómo saber si hay algún cortocircuito?*
+¿Cómo saber si hay algún cortocircuito?
 
-Usaremos un multímetro en la opción de continuidad
+Utilizaremos un multímetro en la opción de continuidad:
 
- - Todas las almoadillas positivas están conecctadas entre sí, por lo que al tocar cuaquiera de ellas tendrán ontinuidad escuchando un "beep"
- - Lo mismo sucederá con las almoadillas negativas
- - Tocar una almoadilla positiva y otra negativa, y no deberemos escuchar ningún sonido
-    - Pero si el mltímetro suena, deberemos encontrar el corto
-    - Puede ser un poco de soldadura derretida en una almoadilla positiva y negativa
+ - Todas las almohadillas positivas están conectadas entre sí, por lo que al tocar cualquiera de ellas se escuchará un "beep".
+ - Lo mismo ocurrirá con las almohadillas negativas.
+ - Al tocar una almohadilla positiva y una negativa, no se debe escuchar ningún sonido.
+ - Si el multímetro suena, deberemos encontrar el corto.
+ - El cortocircuito puede deberse a un poco de soldadura derretida en una almohadilla positiva y negativa.
 
-*Realizar este procedimiento siempre antes de construir*s
+*Realizar este procedimiento siempre antes de ensamblar*
+
+### Enlace receptor-transmisor de radio control
+
+El proceso de enlace entre el transmisor y el receptor es similar al proceso de emparejamiento entre un dispositivo vía inalámbrica.
+
+*¿Cómo conectar?*
+
+1. Conectar los pines PPM del receptor en los pines del dispositivo transmisor-receptor asíncrono o UART del controlador de vuelo usando cables tipo Dupont:
+   - Primero conectar los cables de señal (S)
+   - Luego los cables de alimentación (V)
+   - Al final, los cables de tierra (GND)
+   
+   *Hacerlo en ese orden para no quemar la placa del controlador*
+
+2. Abrir el software del controlador de vuelo en tu PC y conectar la placa de tu controlador:
+   - Primero conectar la conexión micro USB, y luego la conexión USB.
+
+3. Energizar el controlador de vuelo con 5V, puede ser obtenido de un controlador de velocidad conectado a la batería lipo.
+
+4. Da clic en "conectar" y luego en "configuración de interfaz". En la sección "modo del receptor", elegimos el protocolo de enlace "PPM", para dar clic en "guardar y reiniciar".
+
+5. Damos clic en el menú de configuración del transmisor, seleccionamos "output mode", desconectamos la alimentación del controlador de vuelo, elegimos PPM y volvemos a conectar la alimentación al controlador.
+
+6. Vamos a la interfaz, damos clic en conectar, elegimos la pestaña de receptor. Ahora aparece el mapeo de los canales, comprobamos que la respuesta de las barras de estado coincida con el movimiento de las palancas y ajustamos las rangos de respuesta.
+
+*Protocolo de enlace serial*
+
+1. Conectar los pines PPM del receptor en los pines del dispositivo transmisor-receptor asíncrono o UART del controlador de vuelo usando cables tipo Dupont:
+   - Primero, conectar los cables de señal (S).
+   - Después, conectar los cables de alimentación (+).
+   - Al final, conectar los cables de tierra (GND).
+   
+   *Hacerlo en ese orden para no quemar la placa del controlador*
+
+2. Abrir el software del controlador de vuelo en tu PC y conectar la placa de tu controlador:
+   - Primero la conexión micro USB y luego la conexión USB.
+
+3. Energizar el controlador de vuelo con 5V, que puede ser obtenido de un controlador de velocidad conectado a la batería lipo.
+
+4. Dar clic en "conectar", ir a la pestaña de puertos y activar el interruptor RX del puerto que hayas escogido. Dar clic en "guardar y reiniciar".
+
+5. Ir a la pestaña de configuración. En la sección "modo del receptor", elegir el protocolo de enlace serial. En la sección "proveedor del receptor serial", elegir el protocolo de comunicación entre el receptor y el controlador de vuelo, y dar clic en "guardar y reiniciar".
+
+6. En el menú de configuración del transmisor, seleccionar "output mode". Ir a la alimentación del controlador de vuelo, elegir el protocolo serial y volver a conectar la alimentación al controlador.
+
+7. Dar clic en "conectar" en la interfaz, elegir la pestaña del receptor y comprobar que las barras de estado coincidan con el movimiento de las palancas.
+
+ *Es posible no tener que ajustar los controles*
+
+*Enlace rápido*
+
+ 1. Presionar el botón de reinicio y conectar el receptor con cables Dupont.
+
+ - Primero, conectar los cables de señal (S).
+ - Luego, conectar los cables de alimentación (+).
+ - Finalmente, conectar los cables de tierra (GND).
+
+*Realizar las conexiones en ese orden para evitar daños en la placa del controlador.*
+
+ 2. Encender el transmisor y abrir "Model Setup". En la fila "Mode", elegir el protocolo de conexión entre el receptor y el controlador de vuelo (CV). En la fila "Receiver", seleccionar la opción "Bind". Los LEDs del receptor parpadearán, indicando que el enlace ha sido exitoso.
+
+ 3. Desconectar la alimentación del receptor y conectar los nuevos pines. Un LED verde debe encenderse y en la pantalla del transmisor debe aparecer el símbolo de una antena.
+
+Si esto ocurre, el enlace ha sido exitoso.
+
+## Lección 4
+
+### Controles de seguridad antes de volar
+
+ - Antes de despegar deberás asegurarte que la batería lipo y la bateria del transmisor de radiocontrol estén completamente cargados.
+ - Verficar si está autorizado volar en ese lugar.
+ - Verificar el pronóstico del tiempo para evaluar las condiciones del viento.
+ - Sujetar correctamente todo el euqipo (especialmente la batería).
+ - Comprobar que los cables estén asegurados con firmeza.
+ - Ajustar tornillos.
+ - Comprobar que los sensores estén calibrados.
+ - Corroborar el interfaz del pilóto automático.
+
+### Segur
